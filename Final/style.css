@@ -1,0 +1,246 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}  */
+
+
+body {
+    font-family: Arial, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar styling start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    /* margin-left: 50px;
+     font-weight: bold;
+     font-size: x-large; */
+    display: flex;
+    align-items: center;
+   
+}
+
+/* navbar styling end */
+
+
+
+.shades-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+
+/* navbar mei jo list hai uski styling start */
+.list {
+    /* margin-left: 65px;
+    margin-top: 20px;
+    color: rgba(5, 4, 4, 0.74); */
+    flex-grow: 1;
+    text-align: center;
+}
+
+.list pre {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* end */
+
+
+
+/* .button{
+     margin-left: 70px;
+     border: 1px solid rgb(0, 140, 255);
+     margin-top: 10px;
+     
+     
+} */
+
+
+/* button styling start */
+.started .button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.started .button p {
+    margin: 0;
+}
+
+/* button styling end */
+
+
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+/* present your service styling */
+.content .pys {
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+/* middle body styling */
+.content h1 {
+    font-size: 36px;
+    color: #000;
+    margin: 20px 0;
+}
+
+
+/* create custom landing.. styling */
+.content .text {
+    font-size: 18px;
+    color: #666;
+}
+
+/* buttons styling start */
+.two-but {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.two-but .email,
+.two-but .subscribe {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.email {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.subscribe {
+    background-color: #ff7b00;
+    color: white;
+}
+
+/* buttons styling end */
+
+
+
+/* footer styling start */
+.ending {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+}
+
+.ending .use,
+.ending .100-responsive,
+.ending .new-pages {
+    text-align: center;
+}
+
+.ending h5 {
+    font-size: 20px;
+    color: #333;
+}
+
+.ending p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* footer styling end */
+
+
+
+/* present your service styling */
+.pys {
+    color: gray;
+    font-size: small;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+
+    /* navbar mei list ki responsiveness */
+    .list pre {
+        font-size: 16px;
+    }
+
+
+    /* buttons ki reponsiveness */
+    .started .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    /* present your service responsiveness */
+    .content h1 {
+        font-size: 28px;
+    }
+
+
+
+    /* button responsiveness */
+    .two-but .email,
+    .two-but .subscribe {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    /* footer responsiveness */
+    .ending {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ending .use,
+    .ending .100-responsive,
+    .ending .new-pages {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* another max-width pr responsiveness */
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .list pre {
+        font-size: 14px;
+    }
+}
